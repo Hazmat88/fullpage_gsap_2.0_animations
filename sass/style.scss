@@ -1,0 +1,59 @@
+
+// ************** RESET COMPONNENT ********************
+//@import "compass/reset";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+// **************SECTIONS************************************
+
+.s1{
+  background-image: url("../img/cover3.jpg");
+  background-size:cover;
+}
+
+.section h1{
+  font-size: 54px;
+  position:absolute;
+  top:16%;
+  left:50%;
+  transform:translate(-50%, -20%);
+  background: linear-gradient(to left,  #474749, #1E1A12 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2{
+  background: linear-gradient(to left top, #cbcbcb, white);
+}
+
+.s2 h1{
+  font-size:44px;
+  background: linear-gradient(to left, #87c7df, #648896);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.chair{
+  height:50%;
+  position:absolute;
+  top:70%;
+  left:90%;
+  transform: translate(-90%,-70%);
+}
+
+.description{
+  margin:20%;
+  width:50%;
+  margin-left:5%;
+  font-size: 18 px;
+}
+
+.hello{
+  width:100px;
+  height:100px;
+  background-color:red;
+}
